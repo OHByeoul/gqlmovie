@@ -1,0 +1,29 @@
+{
+  "name": "gqlmovie",
+  "version": "1.0.0",
+  "description": "movie api with gql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OHByeoul/gqlmovie.git"
+  },
+  "author": "ohbyeoul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OHByeoul/gqlmovie/issues"
+  },
+  "homepage": "https://github.com/OHByeoul/gqlmovie#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
