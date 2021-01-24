@@ -1,0 +1,20 @@
+type userform {
+    name: String!
+    age: Int!
+    gender: String!
+}
+
+type User {
+    name: String!
+    age: Int!
+}
+
+type user {
+    name: String!
+    age: Int!
+}
+
+type Query {
+    users: [user]!
+    user(name: String!): User
+}
